@@ -52,6 +52,15 @@ $$
 
 The greedy part of the approach comes from the fact that it decides the root by looking ahead one step. After it compares all attributes and find out the best, it nevers look back or ahead to see which combinations classify the data the best. That means, **the algorithm may come up with a good solution, but a better one may exist**.
 
+#### Overfitting
+
+ID3 continues splitting until no attributes is avaiable or the node is pure. There are two ways to avoid overfitting.
+- stop growing the tree before it becomes too large
+  - limit depth
+  - etc.
+- prune the tree after it becomes too large
+  - take away leaf nodes from the tree
+
 
 
 
