@@ -62,7 +62,8 @@ ID3 continues splitting until no attributes is avaiable or the node is pure. The
   - take away leaf nodes from the tree
 
 
-
+#### Reference
+My lecture notes!
 
 
 
