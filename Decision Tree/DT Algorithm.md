@@ -14,22 +14,22 @@ The algorithm used behind decision tree is ID3 algorithm. The ID3 algorithm buil
 
 #### Pseudocode:
 
-def id3(examples, classification_attribute, attributes):
-  creat a root node for the tree
-  if all examples are positive/yes:
-    return root node with positive/yes label
-  else if all examples are negative/no:
-    return root node with negative/no label
-  else if there are no attributes left:
-    return root node with most popular classification_attribute label
-  else:
-    best_attribute = attribute from attributes that best classifies examples
-    for each value in best_attribute:
-      add branch below root node for the value
-      branch_examples = [examples that have that value for best_attribute]
-      if branch_examples is empty:
-        add leaf node with most popular classification_attribute label
-      else:
-        add subtree id3(branch_examples, classification_attribute, attributes - best-attributes)
+def id3(examples, classification_attribute, attributes): <br>
+  creat a root node for the tree<br>
+  if all examples are positive/yes:<br>
+    return root node with positive/yes label<br>
+  else if all examples are negative/no:<br>
+    return root node with negative/no label<br>
+  else if there are no attributes left:<br>
+    return root node with most popular classification_attribute label<br>
+  else:<br>
+    best_attribute = attribute from attributes that best classifies examples<br>
+    for each value in best_attribute:<br>
+      add branch below root node for the value<br>
+      branch_examples = [examples that have that value for best_attribute]<br>
+      if branch_examples is empty:<br>
+        add leaf node with most popular classification_attribute label<br>
+      else:<br>
+        add subtree id3(branch_examples, classification_attribute, attributes - best-attributes)<br>
   
 
