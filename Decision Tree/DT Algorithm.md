@@ -14,7 +14,8 @@ The algorithm used behind decision tree is ID3 algorithm. The ID3 algorithm buil
 
 #### Pseudocode:
 
-def id3(examples, classification_attribute, attributes): <br>
+```
+def id3(examples, classification_attribute, attributes): 
   creat a root node for the tree<br>
   if all examples are positive/yes:<br>
     return root node with positive/yes label<br>
@@ -32,4 +33,4 @@ def id3(examples, classification_attribute, attributes): <br>
       else:<br>
         add subtree id3(branch_examples, classification_attribute, attributes - best-attributes)<br>
   
-
+```
