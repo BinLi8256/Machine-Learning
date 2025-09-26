@@ -50,7 +50,7 @@ $$
 \Bigg(-\sum_{i=1}^{C} \frac{n_{i,v}}{|S_v|}\\log_2\\frac{n_{i,v}}{|S_v|}\Bigg)
 $$
 
-
+The greedy part of the approach comes from the fact that it decides the root by looking ahead one step. After it compares all attributes and find out the best, it nevers look back or ahead to see which combinations classify the data the best. That means, **the algorithm may come up with a good solution, but a better one may exist**.
 
 
 
