@@ -41,6 +41,16 @@ In ID3, the best attribute is defined as the one bringing the most information g
 
 $$Entropy(S) \=\ -\sum_{i=1}^{C} p_{i}\\log_2 p_{i}$$
 
+where C is the number of categories in the attribute. $p_{i}$ is the proportion of the data with this label.
+
+Information gain measures the reduction in entropy that results from partitioning the data on an attribute A.
+
+$$
+\mathrm{IG}(S, A) = Entropy(S) - \sum_{v \in \mathrm{Values}(A)} \frac{|S_v|}{|S|}\
+\Bigg(-\sum_{i=1}^{C} \frac{n_{i,v}}{|S_v|}\\log_2\\frac{n_{i,v}}{|S_v|}\Bigg)
+$$
+
+
 
 
 
