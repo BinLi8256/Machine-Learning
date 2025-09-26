@@ -63,7 +63,7 @@ ID3 continues splitting until no attributes is avaiable or the node is pure. The
 
 
 #### Reference
-My lecture notes!
+My lecture notes from GT!
 
 
 
