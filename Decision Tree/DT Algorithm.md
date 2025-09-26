@@ -34,3 +34,18 @@ def id3(examples, classification_attribute, attributes):
         add subtree id3(branch_examples, classification_attribute, attributes - best-attributes)
   
 ```
+
+#### Best Attribute
+
+In ID3, the best attribute is defined as the one bringing the most information gain, measuring how well the attribute split the subsamples. Entropy is used quantity information gain and measuring the purity of the split. Entropy equals to 0 that means all classification in a subgroup is the same. If entropy equals to $log_{2}{n}$, where n is the number of categories of the target variable.
+
+$$Entropy(S) \=\ -\sum_{i=1}^{C} p_{i}\\log_2 p_{i}$$
+
+
+
+
+
+
+
+
+
